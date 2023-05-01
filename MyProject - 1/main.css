@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+header,
+footer {
+  padding: 16px;
+  background-color: rgb(40, 96, 145);
+  color: #ffa07a;
+}
+
+p {
+  width: 550px;
+}
+
+.container,
+.portfolio-item {
+  max-width: 1450px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#aboutMe {
+  background-color: rgba(108, 138, 202, 0.219);
+}
+
+h1 {
+  font-size: 30px;
+  font-family: "Righteous", cursive;
+}
+
+h3 {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 16px;
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+  color: #ffa07a;
+  text-decoration: underline transparent;
+}
+
+.container > img,
+.portfolio-item > img,
+.portfolio-item div,
+#aboutMe .container div {
+  margin: 24px 16px;
+  width: 550px;
+}
+li img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+li {
+  display: inline;
+  margin-right: 16px;
+}
+
+#portfolio {
+  background-color: #e447092a;
+}
+#portfolio .container,
+#contactMe {
+  display: flex;
+  flex-direction: column;
+}
+#portfolio .container > h2,
+#contactMe > h2 {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+  margin: 16px;
+  color: #ffa07a;
+}
+
+#contactMe {
+  background-color: #a0ff7a42;
+}
+
+#contactMe .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin: 24px auto;
+}
+
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 320px;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+form textarea {
+  resize: none;
+  height: 180px;
+}
+
+footer .container {
+  display: flex;
+  justify-content: flex-end;
+  text-align: end;
+  height: 50px;
+}
+
+button:hover {
+  background-color: #ffa07a;
+}
+a:hover {
+  text-decoration: underline #ffa07a;
+}
