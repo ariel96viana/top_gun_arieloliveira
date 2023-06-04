@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ariel's SigIn Page</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="main-container">
+      <div class="container">
+        <h1>Sign In</h1>
+        <form class="signin-content signin-form" autocomplete="off">
+          <label for="inputName">Complete Name</label>
+          <input
+            type="name"
+            name="inputName"
+            class="inputClass"
+            id="inputName"
+            placeholder="Complete Name"
+          />
+          <label for="inputEmail">E-mail</label>
+          <input
+            type="email"
+            name="inputEmail"
+            class="inputClass"
+            id="inputEmail"
+            placeholder="example@email.com"
+          />
+          <label for="inputPhone">Phone Number:</label>
+          <input
+            type="tel"
+            name="inputPhone"
+            class="inputClass"
+            id="inputPhone"
+            placeholder="(__)_____-____"
+          />
+          <label for="inputCPF">Your CPF</label>
+          <input
+            type="text"
+            name="inputCPF"
+            class="inputClass"
+            id="inputCPF"
+            placeholder="___.___.___-__"
+          />
+          <label for="inputAddress">Your Address</label>
+          <input
+            type="text"
+            name="inputAddress"
+            class="inputClass"
+            id="inputAddress"
+            placeholder="City / State - Country"
+          />
+          <label for="inputCEP">Your location CEP</label>
+          <input
+            type="text"
+            name="inputCEP"
+            class="inputClass"
+            id="inputCEP"
+            placeholder="_____-___"
+          />
+          <button type="submit">Register</button>
+        </form>
+      </div>
+    </section>
+
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

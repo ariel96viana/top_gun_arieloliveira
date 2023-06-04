@@ -1,0 +1,21 @@
+@use "variables";
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -138px;
+  min-height: 100vh;
+  background-color: #000;
+  background-size: cover;
+  background-position: enter;
+  margin-bottom: 40px;
+
+  @media (max-width: 768px) {
+    margin-top: -172px;
+  }
+
+  &__content {
+    width: 100%;
+  }
+}
